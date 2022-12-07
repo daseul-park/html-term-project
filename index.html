@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Term Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- font, css, js -->
-    <link type = "text/css" rel = "stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Term Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <header> <h3>Header</h3></header>
-    <section class="main-wrapper">
-      <main>
-        <h1>Main Title</h1>
-        <p>
-뜨거운지라, 있을 풀이 위하여 같으며, 것이다. 별과 얼음에 영원히 커다란 인간이 같으며, 부패를 하는 것이다. 얼음에 투명하되 구할 일월과 인간이 그들을 끓는다. 할지니, 보내는 사랑의 보는 칼이다. 작고 위하여서 못할 이 천지는 보라. 그들은 같으며, 고동을 그들에게 뛰노는 꽃이 투명하되 말이다. 낙원을 용감하고 되는 날카로우나 길지 못할 이것은 우리 것이다. 찾아다녀도, 청춘이 안고, 부패를 위하여 아니다. 눈에 남는 위하여, 장식하는 이상 희망의 철환하였는가?</p>
-      </main>
-    </section>
-    <footer>
-      <h3>Footer</h3>
-    </footer>
-  </body>
+  <!-- font, css, js -->
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div id="header">
+    <a href="main.html">Masione de Unique</a>
+  </div>
+
+  <div id="navigation">
+    <a href="index.html">상세설명</a>
+    <a href="tableau.html">Review</a>
+    <a href="store.html">반품&교환</a>
+  </div> 
+  
+  <div id="section">
+    <div class="bxslider">
+      <img src="img/유니크1.jpg" width=800px>
+      <img src="img/유니크2.jpg" width=800px>
+      <img src="img/유니크3.jpg" width=800px>
+      <img src="img/유니크4.jpg" width=800px>
+    </div>
+    <script src="jss/jquery-2.2.4.min.js"></script>
+    <script src="jss/jquery.bxslider.js"></script>
+
+    <script>
+      $(function () {
+        $('.bxslider').bxSlider({
+          sliderWidth: 600,
+          captions: true,
+          auto: true,
+          autoControls: true,
+          stopAutoOnclick: true,
+        });
+      });
+    </script>
+
+
+
+    <br>
+    <p> 세상에서 가장 귀여운 존재는 무엇이라고 생각하시나요?<br><br>
+      갓난아기, 눈오리 등 다양한 것이 있지만 단언켠대 가장 귀여운 존재는
+      <b id="section b">회색 고양이 유니크</b>가 아닐까 싶습니다. <br><br>
+      그런 존재의 귀여움을 알리는 것을 목표로 하고자 합니다. <br><br>
+      한정판 유니크 2022년 postcard 에디션을 통해서 사람들에게 마음을 전달하세요. <br><br>
+      행복은 덤입니다.<br><br><br>
+    </p>
+  </div>
+
+  <br><br><br>
+</body>
+
 </html>
