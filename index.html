@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <title>Term Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
   <!-- font, css, js -->
-  <link type="text/css" rel="stylesheet" href="style.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
 
 
 </head>
@@ -25,11 +25,11 @@
   </div> 
   
   <div id="section">
-    <div class="bxslider">
-      <img src="img/유니크1.jpg" width=800px>
-      <img src="img/유니크2.jpg" width=800px>
-      <img src="img/유니크3.jpg" width=800px>
-      <img src="img/유니크4.jpg" width=800px>
+    <div class="bxslider" width=70%>
+      <img src="img/유니크1.jpg" width=100%>
+      <img src="img/유니크2.jpg" width=100%>
+      <img src="img/유니크3.jpg" width=100%>
+      <img src="img/유니크4.jpg" width=100%>
     </div>
     <script src="jss/jquery-2.2.4.min.js"></script>
     <script src="jss/jquery.bxslider.js"></script>
@@ -37,7 +37,7 @@
     <script>
       $(function () {
         $('.bxslider').bxSlider({
-          sliderWidth: 600,
+          sliderWidth: 400,
           captions: true,
           auto: true,
           autoControls: true,
@@ -58,7 +58,81 @@
     </p>
   </div>
 
+  <div id = "store">
+    <img src="img/유니크1.jpg" width =  100%  style="text-align: center">
+    <br> 
+    <a> <b> 과일을 탐내는 유니크</b><br>          
+    <h2> 가격 : 20000원</h2><br>
+        <li>귀여운 호박색 눈 </li><br>
+        <li>배송비: 무료</li><br>
+        <li>OPTION: 젤리 옵션 </li><br>
+        <select>
+            <option> 엽서 단품</option>
+            <option> 엽서 + 유니크 젤리 </option>
+         </select>
+    </a>
+</div>
+
+<div id = "store">
+  <img src="img/유니크2.jpg" width =  100%  style="text-align: center">
+  <br> 
+  <a> <b> '코'코넨네 유니크</b><br>          
+  <h2> 가격 : 30000원</h2><br>
+      <li>말랑말랑한 코와 앙 다문 입 </li><br>
+      <li>배송비: 무료</li><br>
+      <li>OPTION: 유니크 코 젤리 옵션 </li><br>
+      <select>
+          <option> 엽서 단품</option>
+          <option> 엽서 + 유니크 코 젤리 </option>
+       </select>
+  </a>
+</div>
+
+<div id = "store">
+  <img src="img/유니크3.jpg" width = 100% style="text-align: center">
+  <br> 
+  <a> <b> 곰이 아니다냥</b><br>          
+  <h2> 가격 : 40000원</h2><br>
+      <li>곰인 줄 알았죠? </li><br>
+      <li>배송비: 무료</li><br>
+      <li>OPTION: 곰 모자 옵션 </li><br>
+      <select>
+          <option> 엽서 단품</option>
+          <option> 엽서 + 곰 모자</option>
+       </select>
+  </a>
+</div>
+
+<div id = "store">
+  <img src="img/유니크4.jpg" width =  100%  style="text-align: center">
+  <br> 
+  <a> <b> 가지마냥</b><br>          
+  <h2> 가격 : 10000원</h2><br>
+      <li>애원하는 유니크 </li><br>
+      <li>배송비: 무료</li><br>
+      <li>OPTION: 유니크 피규어 </li><br>
+      <select>
+          <option> 엽서 단품</option>
+          <option> 엽서 + 피규어 </option>
+       </select>
+  </a>
+</div>
+<div class="goods_btn_area">
+
+  <input type="button" value=" 구매하기 " id="btn_submit" class="order_btn_buy" onclick="alert('buy');">
+  
+  <input type="button" value=" 장바구니 " id="btn_submit" class="order_btn_cart" onclick="alert('cart');">
+  
+  <input type="button" value=" 관심상품 " id="btn_submit" class="order_btn_wish" onclick="alert('wish');">
+  
+  </div>
   <br><br><br>
 </body>
+
+<footer>
+  <span> ADD: 인천광역시 고양이구 캣동 </span> <br>
+  <span> TEL.010-1234-5679 </span>
+  <span> 대표: 박다슬 </span>
+</footer>
 
 </html>
